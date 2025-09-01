@@ -20,7 +20,7 @@ except Exception as e:
 # =========================
 # QUERY TRIAL BALANCE
 # =========================
-query = """Select $name, $_PrimaryGroup, $Parent, $OpeningBalance, $Debittotals, $CreditTotals, $_ClosingBalance from Ledger"""
+query = """Select $name, $_PrimaryGroup, $Parent, $OpeningBalance, $_ClosingBalance from Ledger"""
 # The above is a simple Ledger query — Tally auto-calculates TB when date range is set.
 
 # =========================
